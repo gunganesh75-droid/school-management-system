@@ -2,7 +2,7 @@ console.log("JS file connected");
 
 // GET students
 function getStudents() {
-  fetch("https://your-backend-url.onrender.com")
+  fetch("https://school-management-system-gsol.onrender.com")
     .then(response => response.json())
     .then(data => {
       const list = document.getElementById("studentList");
