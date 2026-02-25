@@ -2,7 +2,7 @@ console.log("JS file connected");
 
 // GET students
 function getStudents() {
-  fetch("http://localhost:3000/students")
+  fetch("https://your-backend-url.onrender.com")
     .then(response => response.json())
     .then(data => {
       const list = document.getElementById("studentList");
